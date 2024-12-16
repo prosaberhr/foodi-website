@@ -9,3 +9,59 @@
 .btn-success{
     background: #39DB4A;
 }
+.badge{
+    font-size: 10px;
+    background: #39DB4A;
+}
+.text-success{
+    color: #39DB4A;
+}
+.d-flex {
+    margin-right: 0;
+    padding-right: 0;
+    overflow-x: auto;
+}
+
+.row h1{
+    font-size: 62px;
+    font-weight: 800;
+
+}
+.row p{
+    font-size: 26px;
+    font-weight: 500;
+}
+.order{
+    font-size: 20px;
+}
+#watch{
+    font-size: 20px;
+}
+.play{
+    font-size: 40px;
+    transform: translate(-50%)
+}
+#col1-img{
+    transform: translate(20%,20%)
+    
+}
+#col1-txt{
+    transform: translate(20%);
+    text-align: left;    
+}
+
+#col2-img{
+    transform: translate(20%,20%)
+    
+}
+#col2-txt{
+    transform: translate(9%);
+    text-align: left;    
+} 
+#bottom-row{
+    transform: translate(6%,-48%);
+    height: inherit;
+}
+
+
+
