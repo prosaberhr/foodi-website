@@ -141,3 +141,7 @@
 #icon-card{
     border-radius: 20px;
 }
+.footer-a{
+    text-decoration: none;
+    color: inherit;
+}
