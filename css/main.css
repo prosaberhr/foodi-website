@@ -9,6 +9,9 @@
 .btn-success{
     background: #39DB4A;
 }
+.bg-success{
+    background-color: #39DB4A;
+}
 .badge{
     font-size: 10px;
     background: #39DB4A;
@@ -39,14 +42,14 @@
 }
 .play{
     font-size: 40px;
-    transform: translate(-50%)
+    transform: translate(-30%,-10%)
 }
 #col1-img{
     transform: translate(20%,20%)
     
 }
 #col1-txt{
-    transform: translate(20%);
+    transform: translate(25%);
     text-align: left;    
 }
 
@@ -55,7 +58,7 @@
     
 }
 #col2-txt{
-    transform: translate(9%);
+    transform: translate(10%);
     text-align: left;    
 } 
 #bottom-row{
@@ -63,5 +66,14 @@
     height: inherit;
 }
 
+#cat-text-p{
+    font-size: 15px;
+}
+#cat-card{
+    border-radius: 15px;
+}
+#special-btn{
+    left: 100%;
+}
 
 
