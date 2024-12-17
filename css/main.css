@@ -2,12 +2,15 @@
     color: #39DB4A;
     
 }
-.navbar{
-    font-weight: 500;
+#nav-txt{
+    font-weight: bold;
     font-family: 'Poppins';
 }
 .btn-success{
     background: #39DB4A;
+}
+.btn-secondary{
+    background-color: rgb(207, 207, 207);
 }
 .bg-success{
     background-color: #39DB4A;
@@ -19,20 +22,16 @@
 .text-success{
     color: #39DB4A;
 }
-.d-flex {
-    margin-right: 0;
-    padding-right: 0;
-    overflow-x: auto;
-}
-
-.row h1{
+#header-h1{
     font-size: 62px;
     font-weight: 800;
-
 }
-.row p{
-    font-size: 26px;
+#header-p{
     font-weight: 500;
+    color: gray;
+}
+#f-card-txt{
+    font-weight: 600;
 }
 .order{
     font-size: 20px;
@@ -65,7 +64,17 @@
     transform: translate(6%,-48%);
     height: inherit;
 }
-
+.top-corner{
+    
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #39DB4A;
+    border-bottom-left-radius:50%;
+    border-top-right-radius: 30%;
+}
 #cat-text-p{
     font-size: 15px;
 }
@@ -76,4 +85,59 @@
     left: 100%;
 }
 
+.test-image{
+    min-width: 50%;
+}
+#test-txt{
+    min-width: 50%;
+}
+#test-txt h1{
+    font-size: 50px;
+}
+.cook{
+    z-index: 1;
+}
+.cmnt{
+    z-index: 2;
+    transform: translate(90%,-80%);
+}
+.cmnt-txt{
+    font-weight: bold;
+    transform: translate(55%,-940%);
+}
+.test-image{
+    height: 700px;
+    overflow: hidden;
+    border-bottom-left-radius:10px ;
+}
+.test-image img{
+    border-bottom-left-radius:10px ;
+}
+.overlap-images img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    border: 3px solid white;
+    position:relative
+}
+.overlap-images #img-1{
+    z-index: 1;
+}
+.overlap-images #img-2{
+    z-index: 2;
+    margin-left: -15px;
+}
+.overlap-images #img-3{
+    z-index: 3;
+    margin-left: -15px;
+}
 
+.right-txt{
+    margin-left: 80px;
+
+}
+#icon-card{
+    border-radius: 20px;
+}

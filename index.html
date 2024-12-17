@@ -18,6 +18,13 @@
       href="https://fonts.googleapis.com/css?family=Poppins"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
@@ -35,7 +42,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto" id="nav-txt">
             <li class="nav-item px-4">
               <a href="home" class="nav-link">Home</a>
             </li>
@@ -219,11 +226,11 @@
           <div class="row g-4 align-items-center">
             <div class="col">
               <div>
-                <h1 class="pt-4">
+                <h1 class="pt-4" id="header-h1">
                   Dive into Delights Of Delectable
                   <span class="text-success">Food</span>
                 </h1>
-                <p class="lead pt-3">
+                <p class="lead pt-3" id="header-p">
                   Where Each Plate Weaves a Story of Culinary Mastery and
                   Passionate Craftsmanship
                 </p>
@@ -267,7 +274,7 @@
                       ><button class="btn">
                         <div
                           class="card mb-3 p-3 rounded-pill shadow-lg border-0"
-                          style="max-width:fit-content"
+                          style="max-width: fit-content"
                         >
                           <div class="row g-0">
                             <div class="col-md-4" id="col1-img">
@@ -280,7 +287,11 @@
                             </div>
                             <div class="col" id="col1-txt">
                               <div class="card-body">
-                                <p class="card-title" style="font-size: 15px">
+                                <p
+                                  class="card-title"
+                                  style="font-size: 15px"
+                                  id="f-card-txt"
+                                >
                                   Spicy noodles
                                 </p>
                                 <p class="card-text" style="font-size: 15px">
@@ -290,7 +301,11 @@
                                   ><i class="bi bi-star"></i
                                   ><i class="bi bi-star"></i>
                                 </p>
-                                <p class="card-text" style="font-size: 15px">
+                                <p
+                                  class="card-text"
+                                  style="font-size: 15px"
+                                  id="f-card-txt"
+                                >
                                   <span class="text-danger">$</span>18.00
                                 </p>
                               </div>
@@ -306,7 +321,7 @@
                       ><button class="btn">
                         <div
                           class="card mb-3 p-3 rounded-pill shadow border-0"
-                          style="min-width:fit-content"
+                          style="min-width: fit-content"
                         >
                           <div class="row g-0">
                             <div class="col-md-4" id="col2-img">
@@ -319,7 +334,11 @@
                             </div>
                             <div class="col" id="col2-txt">
                               <div class="card-body">
-                                <p class="card-title" style="font-size: 15px">
+                                <p
+                                  class="card-title"
+                                  style="font-size: 15px"
+                                  id="f-card-txt"
+                                >
                                   Vegetarian salad
                                 </p>
                                 <p class="card-text" style="font-size: 15px">
@@ -329,7 +348,11 @@
                                   ><i class="bi bi-star-fill"></i
                                   ><i class="bi bi-star"></i>
                                 </p>
-                                <p class="card-text" style="font-size: 15px">
+                                <p
+                                  class="card-text"
+                                  style="font-size: 15px"
+                                  id="f-card-txt"
+                                >
                                   <span class="text-danger">$</span>23.00
                                 </p>
                               </div>
@@ -355,7 +378,11 @@
             <div class="col">
               <a href="#" class="main-dish">
                 <button class="btn">
-                  <div class="card border-0 shadow-lg pt-3" style="max-width:100%; min-height: 17rem" id="cat-card">
+                  <div
+                    class="card border-0 shadow-lg pt-3"
+                    style="max-width: 100%; min-height: 17rem"
+                    id="cat-card"
+                  >
                     <img
                       src="assets/Images/Burger.png"
                       class="mx-auto d-block rounded-circle w-50"
@@ -372,10 +399,15 @@
             <div class="col">
               <a href="#" class="break-fast">
                 <button class="btn">
-                  <div class="card border-0 shadow-lg pt-3" style="max-width: 100%;min-height: 17rem;" id="cat-card">
+                  <div
+                    class="card border-0 shadow-lg pt-3"
+                    style="max-width: 100%; min-height: 17rem"
+                    id="cat-card"
+                  >
                     <img
                       src="assets/Images/sand.png"
-                      class="mx-auto d-block  pt-4 w-50 border-0" style="object-fit: cover; overflow: hidden;"
+                      class="mx-auto d-block pt-4 w-50 border-0"
+                      style="object-fit: cover; overflow: hidden"
                       alt=""
                     />
                     <div class="card-body">
@@ -389,7 +421,11 @@
             <div class="col">
               <a href="#" class="dessert">
                 <button class="btn">
-                  <div class="card border-0 shadow-lg pt-3 " style="max-width: 100%; min-height: 17rem;" id="cat-card">
+                  <div
+                    class="card border-0 shadow-lg pt-3"
+                    style="max-width: 100%; min-height: 17rem"
+                    id="cat-card"
+                  >
                     <img
                       src="assets/Images/ice.png"
                       class="mx-auto d-block p-2 w-50"
@@ -403,11 +439,15 @@
                 </button>
               </a>
             </div>
-  
+
             <div class="col">
               <a href="#" class="browse-all">
                 <button class="btn">
-                  <div class="card border-0 shadow-lg pt-3 " style="max-width: 100%; min-height: 17rem" id="cat-card">
+                  <div
+                    class="card border-0 shadow-lg pt-3"
+                    style="max-width: 100%; min-height: 17rem"
+                    id="cat-card"
+                  >
                     <img
                       src="assets/Images/juice.png"
                       class="mx-auto d-block p-3 w-50"
@@ -424,11 +464,10 @@
           </div>
         </div>
       </div>
-      
     </section>
-    <section class="special pt-5 ">
+    <section class="special pt-5">
       <div class="container">
-        <div class=" text-left overflow-hidden p-2">
+        <div class="text-left overflow-hidden p-2">
           <h6><span class="text-danger">SPECIAL DISHES</span></h6>
           <div class="d-flex">
             <div>
@@ -437,20 +476,32 @@
             </div>
             <div class="d-flex p-3 ms-auto gap-4">
               <div id="left-btn">
-                <button class="btn border-0 shadow p-3 rounded-circle"><i class="bi bi-chevron-left"></i></button>
+                <button class="btn btn-secondary border-0 p-4 rounded-circle">
+                  <i class="bi bi-chevron-left"></i>
+                </button>
               </div>
               <div id="right-btn">
-                <button class="btn btn-success border-0 shadow p-3 rounded-circle"><i class="bi bi-chevron-right"></i></button>
+                <button class="btn btn-success border-0 p-4 rounded-circle">
+                  <i class="bi bi-chevron-right"></i>
+                </button>
               </div>
             </div>
-              
           </div>
         </div>
         <div class="row pt-4">
           <div class="col">
             <a href="#" class="main-dish">
               <button class="btn">
-                <div class="card border-0 shadow-lg pt-3" style="max-width:100%;" id="cat-card">
+                <div
+                  class="card border-0 shadow-lg pt-3"
+                  style="max-width: 100%"
+                  id="cat-card"
+                >
+                  <div class="top-corner">
+                    <span class="icon text-light"
+                      ><i class="bi bi-heart-fill"></i
+                    ></span>
+                  </div>
                   <img
                     src="assets/Images/fatt.png"
                     class="mx-auto d-block card-img-top rounded-circle w-50"
@@ -458,13 +509,20 @@
                   />
                   <div class="card-body">
                     <h5 class="card-text" id="cat-text-h1">Fattoush salad</h5>
-                    <p class="card-text" id="cat-text-p">Description of the item</p>
+                    <p class="card-text" id="cat-text-p">
+                      Description of the item
+                    </p>
                     <div class="d-flex">
                       <div>
                         <h3><span class="text-danger">$</span>24.00</h3>
                       </div>
                       <div class="ms-auto">
-                        <p><span class="text-warning"><i class="bi bi-star-fill"></i></span> 4.9</p>
+                        <p>
+                          <span class="text-warning"
+                            ><i class="bi bi-star-fill"></i
+                          ></span>
+                          4.9
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -475,7 +533,16 @@
           <div class="col">
             <a href="#" class="main-dish">
               <button class="btn">
-                <div class="card border-0 shadow-lg pt-3" style="max-width:100%;" id="cat-card">
+                <div
+                  class="card border-0 shadow-lg pt-3"
+                  style="max-width: 100%"
+                  id="cat-card"
+                >
+                  <div class="top-corner">
+                    <span class="icon text-light"
+                      ><i class="bi bi-heart"></i
+                    ></span>
+                  </div>
                   <img
                     src="assets/Images/vegesal.png"
                     class="mx-auto d-block rounded-circle w-50"
@@ -483,13 +550,20 @@
                   />
                   <div class="card-body">
                     <h5 class="card-text" id="cat-text-h1">Vegetable salad</h5>
-                    <p class="card-text" id="cat-text-p">Description of the item</p>
+                    <p class="card-text" id="cat-text-p">
+                      Description of the item
+                    </p>
                     <div class="d-flex">
                       <div>
                         <h3><span class="text-danger">$</span>26.00</h3>
                       </div>
                       <div class="ms-auto">
-                        <p><span class="text-warning"><i class="bi bi-star-fill"></i></span> 4.6</p>
+                        <p>
+                          <span class="text-warning"
+                            ><i class="bi bi-star-fill"></i
+                          ></span>
+                          4.6
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -500,7 +574,16 @@
           <div class="col">
             <a href="#" class="main-dish">
               <button class="btn">
-                <div class="card border-0 shadow-lg pt-3" style="max-width:100%; min-height: 17rem" id="cat-card">
+                <div
+                  class="card border-0 shadow-lg pt-3"
+                  style="max-width: 100%; min-height: 17rem"
+                  id="cat-card"
+                >
+                  <div class="top-corner">
+                    <span class="icon text-light"
+                      ><i class="bi bi-heart"></i
+                    ></span>
+                  </div>
                   <img
                     src="assets/Images/egg.png"
                     class="mx-auto d-block rounded-circle w-50"
@@ -508,17 +591,22 @@
                   />
                   <div class="card-body">
                     <h5 class="card-text" id="cat-text-h1">Egg vegi salad</h5>
-                    <p class="card-text" id="cat-text-p">Description of the item</p>
+                    <p class="card-text" id="cat-text-p">
+                      Description of the item
+                    </p>
                     <div class="d-flex">
                       <div>
                         <h3><span class="text-danger">$</span>23.00</h3>
                       </div>
                       <div class="ms-auto">
-                        <p><span class="text-warning"><i class="bi bi-star-fill"></i></span> 4.5</p>
+                        <p>
+                          <span class="text-warning"
+                            ><i class="bi bi-star-fill"></i
+                          ></span>
+                          4.5
+                        </p>
                       </div>
-                      
                     </div>
-                    
                   </div>
                 </div>
               </button>
@@ -526,8 +614,132 @@
           </div>
         </div>
       </div>
-     
-      
+    </section>
+    <section class="testimonials pt-5">
+      <div class="container">
+        <div class="d-flex" style="min-width: 50%">
+          <div class="test-image">
+            <img src="assets/Images/cook.png " alt="" class="cook" />
+            <img src="assets/Images/cmt-img.png" alt="" class="cmnt" />
+            <p class="cmnt-txt">Our Best Chef 😁</p>
+          </div>
+          <div class="align-items-center" style="font-size: 30px" id="test-txt">
+            <h5><span class="text-danger">TESTIMONIALS</span></h5>
+            <h1 class="pt-5">What Our Customers</h1>
+            <h1>Say About Us</h1>
+            <p class="pt-3">
+              “I had the pleasure of dining at Foodi last night, and I'm still
+              raving about the experience! The attention to detail in
+              presentation and service was impeccable”
+            </p>
+            <div class="d-flex align-items-center pt-5">
+              <div class="overlap-images d-inline-flex">
+                <img
+                  src="assets/Images/orange.png"
+                  alt=""
+                  id="img-1"
+                  class="bg-warning"
+                />
+                <img src="assets/Images/pink.png" alt="" id="img-2" />
+                <img src="assets/Images/yellow.png" alt="" id="img-3" />
+              </div>
+              <div class="txt mx-5">
+                <h5>Customer Feedback</h5>
+                <p style="font-size: 15px">
+                  <span class="text-warning"
+                    ><i class="bi bi-star-fill"></i
+                  ></span>
+                  4.9 <span class="text-secodary"></span>(18.6k Reviews)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="story pt-5 align-items-center">
+      <div class="container">
+        <div class="d-flex">
+          <div class="left-txt" style="width: 50%">
+            <h5 ><span class="text-danger">Our Story & Services</span></h5>
+            <h1 class="pt-5" style="font-weight: 700;">Our Culinary Journey And Services</h1>
+            <p style="font-weight: 500;">
+              Rooted in passion, we curate unforgettable dining experiences and
+              offer exceptional services, blending culinary artistry with warm
+              hospitality.
+            </p>
+            <a href="#" class="explore">
+              <button
+                class="btn btn-success p-3 px-5 border-0 rounded-pill shadow"
+              >
+                Explore
+              </button>
+            </a>
+          </div>
+          <div class="right-txt" style="width: 50%">
+            <div class="row row-cols-2 g-5">
+              <div class="col text-center">
+                <div class="shadow border-0 p-3" id="icon-card">
+                  <p style="font-size: 40px">
+                    <span class="text-success"
+                      ><i class="fa-solid fa-bowl-food"></i
+                    ></span>
+                  </p>
+                  <h4><span class="text-success">CATERING</span></h4>
+                  <p>
+                    <span class="text-success"
+                      >Delight your guests with our flavors and
+                      presentation</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col text-center">
+                <div class="shadow border-0 p-3" id="icon-card">
+                  <p style="font-size: 40px">
+                    <span class="text-success"
+                      ><i class="bi bi-clock-history"></i></span>
+                  </p>
+                  <h4><span class="text-success">FAST DELIVERY</span></h4>
+                  <p>
+                    <span class="text-success"
+                      >We deliver your order promptly to your door</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col text-center">
+                <div class="shadow border-0 p-3" id="icon-card">
+                  <p style="font-size: 40px">
+                    <span class="text-success"
+                      ><i class="bi bi-cart-check"></i></span>
+                  </p>
+                  <h4><span class="text-success">ONLINE ORDERING</span></h4>
+                  <p>
+                    <span class="text-success"
+                      >Explore menu & order with ease using our Online Ordering</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col text-center">
+                <div class="card shadow border-0 p-3" id="icon-card">
+                  <p style="font-size: 40px">
+                    <span class="text-success"
+                      ><i class="bi bi-gift"></i></span>
+                  </p>
+                  <h4><span class="text-success">GIFT CARDS</span></h4>
+                  <p>
+                    <span class="text-success"
+                      >Give the gift of exceptional dining with Foodi Gift Cards</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
