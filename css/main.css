@@ -30,7 +30,16 @@
     font-weight: 500;
     color: gray;
 }
-#f-card-txt{
+#f1-card-txt{
+    font-weight: 600;
+}
+#f2-card-txt{
+    font-weight: 600;
+}
+#f3-card-txt{
+    font-weight: 600;
+}
+#f4-card-txt{
     font-weight: 600;
 }
 .order{
@@ -75,11 +84,41 @@
     border-bottom-left-radius:50%;
     border-top-right-radius: 30%;
 }
-#cat-text-p{
+#cat1-text-p{
     font-size: 15px;
 }
-#cat-card{
+#cat2-text-p{
+    font-size: 15px;
+}
+#cat3-text-p{
+    font-size: 15px;
+}
+#cat1-card{
     border-radius: 15px;
+}
+#cat2-card{
+    border-radius: 15px;
+}
+#cat3-card{
+    border-radius: 15px;
+}
+#cat4-card{
+    border-radius: 15px;
+}
+#cat5-card{
+    border-radius: 15px;
+}
+#cat6-card{
+    border-radius: 15px;
+}
+#cat7-card{
+    border-radius: 15px;
+}
+#catt1-text-p{
+    font-size: 15px;
+}
+#catt2-text-p{
+    font-size: 15px;
 }
 #special-btn{
     left: 100%;
@@ -138,10 +177,23 @@
     margin-left: 80px;
 
 }
-#icon-card{
+#icon-card1{
     border-radius: 20px;
 }
-.footer-a{
+#icon-card2{
+    border-radius: 20px;
+}
+#icon-card3{
+    border-radius: 20px;
+}
+#icon-card4{
+    border-radius: 20px;
+}
+a{
     text-decoration: none;
-    color: inherit;
+    
+}
+.carousel-inner{
+
+    height: 400px;
 }
